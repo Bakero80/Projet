@@ -1,0 +1,111 @@
+{
+	"layout": "border",
+	"items": [{
+		"region": "west",
+		"layout": "border",
+		"width": 350,
+		"split": true,
+		"collapsible": true,
+		"collapsed": true,
+		"titleCollapse": true,
+		"hideCollapseTool": true,
+		"bind": {
+			"title": "{name}"
+		},
+		"tools": [{
+			"xtype": "button",
+			"action": "ckAddLayer",
+			"text": "",
+			"iconCls": "fa fa-plus-square",
+			"panels": [{
+				"service": "wmc",
+				"insertFirst": true,
+				"keepStructure": false
+			}]
+		}],
+		"items": [{
+			"xtype": "context",
+			"region": "north",
+			"plugins": "context.load",
+			"context": "capp"
+		},{
+			"xtype": "cklegend",
+			"region": "center"
+		}]
+	},{
+		"xtype": "ckmap",
+		"region": "center",
+		"center": [1426733, 2238332],
+		"zoom": 6,
+		"context": false,
+		"_context": "/tag",
+		"controls":{
+			"FullScreen": false
+		},
+		"dockedItems": [{
+			"xtype": "cktoolbar",
+			"dock": "right",
+			"defaults": {
+				"scale": "large"
+			},
+			"items": [{
+				"action": "ckmapGeolocation"
+			},{
+				"action": "ckOpenOverview"
+			},{
+				"action": "ckmapResetview"
+			},{
+				"xtype": "ckgroup",
+				"tooltip": "Measure tools",
+				"iconCls": "ckfont ck-measures",
+				"items": [{
+					"action": "ckmapMeasureLength"
+				},{
+					"action": "ckmapMeasureArea"
+				},{
+					"action": "ckmapMeasureClear"
+				}]
+			},{
+				"xtype": "ckgroup",
+				"tooltip": "Select tools",
+				"iconCls": "ckfont ck-selects",
+				"items": [{
+					"action": "ckmapGpsRoad"
+				},{
+					"action": "ckmapSelectPoint"
+				},{
+					"action": "ckmapSelectCircle"
+				},{
+					"action": "ckmapSelectBox"
+				}]
+			},{
+				"action": "ckmapFeatureInfo"
+			}]
+		},{
+			"xtype": "toolbar",
+			"dock": "bottom",
+			"items": [{
+				"xtype": "tbtext",
+				"bind": {
+					"html": "Centre : {x} {y}"
+				}
+			},'->',{
+				"xtype": "combo",
+				"fieldLabel": "Echelle",
+				"displayField": "scale",
+				"valueField": "res",
+				"reference": "mapScales",
+				"editable": false,
+				"bind": {
+					"value": "{resolution}",
+					"store":"{scales}"
+				}
+			},{
+				"xtype": "tbtext",
+				"bind": {
+					"html": "v {version}"
+				}
+			}]
+		}]
+	}]
+}

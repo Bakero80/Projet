@@ -1,0 +1,3 @@
+C:\projets\chinook2\ck-appdemo\packages\local\ck-viewer\src\edit\vertex\Controller.js
+
+C:\projets\chinook2\ck-appdemo\packages\local\ck-viewer\classic\src\edit\Vertex.js
