@@ -1,0 +1,29 @@
+OL3 openlayers
+prochcat => système de projection
+Ext.js => grosse librairie qui facilite la tâche du développeur
+librairie "ext".
+
+Faut regarder les docs : attention au numéro de version
+
+Cordova : apk pour installer sur les platefomes android. L'appli android va lancer l'appareil de chrome 
+et va charger la page web. Accès aux ressources, aux caméras, gps.C 'est toujours la même fenetre qui s'ouvre.
+Pour développer sur l'ordinateur, on utilise le navigateur chrome.
+
+Sur github : on recupère juste un package.
+
+package ckviewer : partie client qui embarque la librairie openlayers
+ext.js avc sensha cmd qui va aider à générer l'application qui va inclure le package
+
+
+Partie server : Appli avec chinook ont utilisé une autre partie serveur (d'autres librairies qui vont gérer la cartographie)
+Moteur cartographique : Map server qui se connecte à la bdd postgreSql.
+
+Sur l'application de la ville de Pau, elle est connectée à la partie serveur du client. C'est le serveur de production.
+
+Les fonds de plan (carte ou photo aérienne) stoke dans la tablette toutes les images. 
+Une limite : obligé de passer par une bdd en raison de la volumétrie.
+
+Chinook 2 n'a pas de partie serveur. Ex pour Pau, c'est la partie serveur de Chinook 1 qui est utilisé.
+La partie chinook 2 client peut utiliser plusieurs serveurs.
+
+ck-viewer

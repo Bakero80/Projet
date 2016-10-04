@@ -1,0 +1,4 @@
+habibaziouche//root
+samirziouche//nom user ziouches 
+
+su pour passer root
