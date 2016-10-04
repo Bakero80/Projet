@@ -1,0 +1,5 @@
+https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-compare/
+http://tools.geofabrik.de/mc/#14/48.9934/8.3765&num=4&mt0=mapnik&mt1=google-map&mt2=here-map&mt3=mapnik-german
+http://comparemaps.drona.ro/
+http://openlayers.org/en/latest/examples/layer-swipe.html
+http://elections.nordpasdecalais.fr/
