@@ -15,7 +15,7 @@ package ckviewer : partie client qui embarque la librairie openlayers
 ext.js avc sensha cmd qui va aider à générer l'application qui va inclure le package
 
 
-Partie server : Appli avec chinook ont utilisé une autre partie serveur (d'autres librairies qui vont gérer la cartographie)
+Partie server : Appli avec chinook qui ont utilisé une autre partie serveur (d'autres librairies qui vont gérer la cartographie)
 Moteur cartographique : Map server qui se connecte à la bdd postgreSql.
 
 Sur l'application de la ville de Pau, elle est connectée à la partie serveur du client. C'est le serveur de production.

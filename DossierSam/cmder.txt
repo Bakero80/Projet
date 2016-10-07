@@ -1,0 +1,30 @@
+Application available at http://localhost:1841
+[INF] Appending content to C:\projets\chinook2\ck-appdemo\bootstrap.js
+[INF] Writing content to C:\projets\chinook2\ck-appdemo\classic.json
+[INF] Refresh complete in 9 sec. at 08:42:27 AM
+[INF] -----------------------
+[INF] Waiting for changes...
+[INF] -----------------------
+[INF] Application available at http://localhost:1841
+[INF] Application available at http://localhost:1841
+[INF] Appending content to C:\projets\chinook2\ck-appdemo\bootstrap.js
+[INF] Writing content to C:\projets\chinook2\ck-appdemo\classic.json
+[INF] merging 636 input resources into C:\projets\chinook2\ck-appdemo\build\development\AppDemo\classic\resources
+[INF] merged 1 resources into C:\projets\chinook2\ck-appdemo\build\development\AppDemo\classic\resources
+[INF] merging 13 input resources into C:\projets\chinook2\ck-appdemo\build\development\AppDemo
+[INF] merged 0 resources into C:\projets\chinook2\ck-appdemo\build\development\AppDemo
+[INF] Writing content to C:\projets\chinook2\ck-appdemo\sass\example\bootstrap.json
+[INF] Writing content to C:\projets\chinook2\ck-appdemo\sass\example\bootstrap.js
+[INF] writing sass content to C:\projets\chinook2\ck-appdemo\build\temp\development\AppDemo\sass\AppDemo-all.scss.tmp
+[INF] appending sass content to C:\projets\chinook2\ck-appdemo\build\temp\development\AppDemo\sass\AppDemo-all.scss.tmp
+[INF] appending sass content to C:\projets\chinook2\ck-appdemo\build\temp\development\AppDemo\sass\AppDemo-all.scss.tmp
+[INF] Using base href : C:\projets\chinook2\ck-appdemo/build/development/AppDemo/classic/resources/
+[INF] Using base href : C:\projets\chinook2\ck-appdemo/build/development/AppDemo/classic/resources/
+[INF] Build complete for ..\..\build\temp\development\AppDemo\sass\AppDemo-all.scss
+[INF] Building ..\..\build\temp\development\AppDemo\sass\AppDemo-all.scss
+[INF] Application available at http://localhost:1841
+[INF] Appending content to C:\projets\chinook2\ck-appdemo\bootstrap.js
+[INF] Writing content to C:\projets\chinook2\ck-appdemo\classic.json
+[INF] Refresh complete in 9 sec. at 08:42:37 AM
+[INF] -----------------------
+[INF] Waiting for changes...
