@@ -27,42 +27,23 @@ Ext.define('Ck.action.testwindow', {
 	 */
 	doAction: function(btn) {
 		if(Ext.isEmpty(this.win) || this.win.isDestroyed) {
-			this.mainPanel = this.createMainPanel();
 
 			this.win = Ck.create("Ext.window.Window", {
 				title		: "window",
 				height		: 350,
 				width		: 500,
-				layout		: "fit",
 				maximizable	: true,
 				collapsible	: true,
-				items		: [this.mainPanel]
+				items		: [{
+						xtype   : "Ext.slider.Widget",
+						width: 200,
+		    		value: 50,
+		    		minValue: 0,
+		    		maxValue: 100
+					}]
 			});
 		}
 
 		this.win.show();
-	},
-
-	createMainPanel: function() {
-		var cls, conf, config, items = [], panels = this.getPanels();
-
-		for(var i in panels) {
-			conf = panels[i];
-			conf.xtype = "cktestwindow"
-			items.push(conf)
-		}
-
-		if(items.length > 1) {
-			cls = "Ext.tab.Tab";
-			config = {items: items}
-		} else {
-			cls = "Ext.panel.Panel";
-			config = {
-				items: items,
-				layout: "fit"
-			}
-		}
-
-		return Ck.create(cls, config);
 	}
 });
