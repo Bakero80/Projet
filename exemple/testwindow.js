@@ -35,7 +35,7 @@ Ext.define('Ck.action.testwindow', {
 				maximizable	: true,
 				collapsible	: true,
 				items		: [{
-						xtype   : "Ext.slider.Widget",
+						xtype   : "sliderwidget",
 						width: 200,
 		    		value: 50,
 		    		minValue: 0,
