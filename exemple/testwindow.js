@@ -9,9 +9,9 @@
  */
 Ext.define('Ck.action.testwindow', {
 	extend: 'Ck.Action',
-	alias: "widget.cktestwindow",
+	alias: 'widget.cktestwindow',
 
-	text: "",
+	text: '',
 	tooltip: '',
 	iconCls: 'fa fa-plus-square',
 
@@ -21,13 +21,8 @@ Ext.define('Ck.action.testwindow', {
 		panels: ["wmc", "wms", "wfs"]
 	},
 
-	/**
-	 * Update geolocationMarker's position via GPS if pressed == true.
-	 * Zoom to user location
-	 */
-	doAction: function(btn) {
-		if(Ext.isEmpty(this.win) || this.win.isDestroyed) {
 
+	doAction: function(btn) {
 			this.win = Ck.create("Ext.window.Window", {
 				title		: "window",
 				height		: 350,
@@ -35,15 +30,13 @@ Ext.define('Ck.action.testwindow', {
 				maximizable	: true,
 				collapsible	: true,
 				items		: [{
-						xtype   : "sliderwidget",
-						width: 200,
+						xtype   : "multislider",
+						width: 500,
 		    		value: 50,
 		    		minValue: 0,
 		    		maxValue: 100
 					}]
 			});
-		}
-
 		this.win.show();
-	}
+	},
 });
