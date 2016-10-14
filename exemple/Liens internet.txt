@@ -3,3 +3,5 @@ http://tools.geofabrik.de/mc/#14/48.9934/8.3765&num=4&mt0=mapnik&mt1=google-map&
 http://comparemaps.drona.ro/
 http://openlayers.org/en/latest/examples/layer-swipe.html
 http://elections.nordpasdecalais.fr/
+
+https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
