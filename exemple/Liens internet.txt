@@ -6,3 +6,4 @@ http://elections.nordpasdecalais.fr/
 
 https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
 https://map.geo.admin.ch/
+https://gist.github.com/tuxite/9954263
