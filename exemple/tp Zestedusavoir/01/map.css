@@ -1,0 +1,10 @@
+#macarte {
+  width:600px;
+  height:500px;
+}
+
+.title {
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
