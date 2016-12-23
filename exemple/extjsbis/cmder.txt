@@ -1,0 +1,51 @@
+D:\tuto\extjs\sam
+ sencha -sdk C:/Sencha/ext-6.0.0 generate app Warrior d:/tuto/extjs/sam
+Sencha Cmd v6.0.2.14
+[INF] Copying framework to d:\tuto\extjs\sam\ext
+[INF] Processing Build Descriptor : classic
+[INF] Using GPL Version of Ext JS version 6.0.0.640 from d:\tuto\extjs\sam\ext.
+[INF] The implications of using GPL version can be found here (http://www.sencha.com/products/extjs/licensing).
+[INF] Starting server on port : 1841
+[INF] Mapping http://localhost:1841/~cmd to C:\Sencha\Cmd\6.0.2.14...
+[INF] Mapping http://localhost:1841/ to d:\tuto\extjs\sam...
+[INF] Application available at http://localhost:1841
+[INF] Loading app json manifest...
+[INF] Appending content to d:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to d:\tuto\extjs\sam\classic.json
+[INF] merging 248 input resources into d:\tuto\extjs\sam\build\development\Warrior\classic\resources
+[INF] merged 248 resources into d:\tuto\extjs\sam\build\development\Warrior\classic\resources
+[INF] merging 12 input resources into d:\tuto\extjs\sam\build\development\Warrior
+[INF] merged 11 resources into d:\tuto\extjs\sam\build\development\Warrior
+[INF] Writing content to d:\tuto\extjs\sam\sass\example\bootstrap.json
+[INF] Writing content to d:\tuto\extjs\sam\sass\example\bootstrap.js
+[INF] writing sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] writing sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\config.rb
+[INF] Building ..\..\build\temp\development\Warrior\sass\Warrior-all.scss
+[INF] Application available at http://localhost:1841
+[INF] Appending content to d:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to d:\tuto\extjs\sam\classic.json
+[INF] Processing Build Descriptor : modern
+[INF] Using GPL Version of Ext JS version 6.0.0.640 from d:\tuto\extjs\sam\ext.
+[INF] The implications of using GPL version can be found here (http://www.sencha.com/products/extjs/licensing).
+[INF] Starting server on port : 1841
+[INF] Mapping http://localhost:1841/~cmd to C:\Sencha\Cmd\6.0.2.14...
+[INF] Mapping http://localhost:1841/ to d:\tuto\extjs\sam...
+[INF] Application available at http://localhost:1841
+[INF] Loading app json manifest...
+[INF] Appending content to d:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to d:\tuto\extjs\sam\modern.json
+[INF] merging 390 input resources into d:\tuto\extjs\sam\build\development\Warrior\modern\resources
+[INF] merged 390 resources into d:\tuto\extjs\sam\build\development\Warrior\modern\resources
+[INF] merging 12 input resources into d:\tuto\extjs\sam\build\development\Warrior
+[INF] merged 0 resources into d:\tuto\extjs\sam\build\development\Warrior
+[INF] Writing content to d:\tuto\extjs\sam\sass\example\bootstrap.json
+[INF] Writing content to d:\tuto\extjs\sam\sass\example\bootstrap.js
+[INF] writing sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to d:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] Building ..\..\build\temp\development\Warrior\sass\Warrior-all.scss
+[INF] Application available at http://localhost:1841
+[INF] Appending content to d:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to d:\tuto\extjs\sam\modern.json

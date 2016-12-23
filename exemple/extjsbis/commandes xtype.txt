@@ -1,0 +1,50 @@
+xtype                   Class
+-----------------       ---------------------
+actionsheet             Ext.ActionSheet
+audio                   Ext.Audio
+button                  Ext.Button
+image                   Ext.Img
+label                   Ext.Label
+loadmask                Ext.LoadMask
+map                     Ext.Map
+panel                   Ext.Panel
+segmentedbutton         Ext.SegmentedButton
+sheet                   Ext.Sheet
+spacer                  Ext.Spacer
+titlebar                Ext.TitleBar
+toolbar                 Ext.Toolbar
+video                   Ext.Video
+carousel                Ext.carousel.Carousel
+navigationview          Ext.navigation.View
+datepicker              Ext.picker.Date
+picker                  Ext.picker.Picker
+slider                  Ext.slider.Slider
+thumb                   Ext.slider.Thumb
+tabpanel                Ext.tab.Panel
+viewport                Ext.viewport.Default
+
+DataView Components
+---------------------------------------------
+dataview                Ext.dataview.DataView
+list                    Ext.dataview.List
+nestedlist              Ext.dataview.NestedList
+
+Form Components
+---------------------------------------------
+checkboxfield           Ext.field.Checkbox
+datepickerfield         Ext.field.DatePicker
+emailfield              Ext.field.Email
+hiddenfield             Ext.field.Hidden
+numberfield             Ext.field.Number
+passwordfield           Ext.field.Password
+radiofield              Ext.field.Radio
+searchfield             Ext.field.Search
+selectfield             Ext.field.Select
+sliderfield             Ext.field.Slider
+spinnerfield            Ext.field.Spinner
+textfield               Ext.field.Text
+textareafield           Ext.field.TextArea
+togglefield             Ext.field.Toggle
+urlfield                Ext.field.Url
+fieldset                Ext.form.FieldSet
+formpanel               Ext.form.Panel

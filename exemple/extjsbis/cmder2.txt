@@ -1,0 +1,28 @@
+D:\tuto\extjs\sam
+? sencha app watch
+Sencha Cmd v6.0.2.14
+[INF] Processing Build Descriptor : classic
+[INF] Starting server on port : 1841
+[INF] Mapping http://localhost:1841/~cmd to C:\Sencha\Cmd\6.0.2.14...
+[INF] Mapping http://localhost:1841/ to D:\tuto\extjs\sam...
+[INF] Application available at http://localhost:1841
+[INF] Application available at http://localhost:1841
+[INF] Loading app json manifest...
+[INF] Appending content to D:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to D:\tuto\extjs\sam\classic.json
+[INF] merging 248 input resources into D:\tuto\extjs\sam\build\development\Warrior\classic\resources
+[INF] merged 0 resources into D:\tuto\extjs\sam\build\development\Warrior\classic\resources
+[INF] merging 12 input resources into D:\tuto\extjs\sam\build\development\Warrior
+[INF] merged 0 resources into D:\tuto\extjs\sam\build\development\Warrior
+[INF] Writing content to D:\tuto\extjs\sam\sass\example\bootstrap.json
+[INF] Writing content to D:\tuto\extjs\sam\sass\example\bootstrap.js
+[INF] writing sass content to D:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to D:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] appending sass content to D:\tuto\extjs\sam\build\temp\development\Warrior\sass\Warrior-all.scss.tmp
+[INF] writing sass content to D:\tuto\extjs\sam\build\temp\development\Warrior\sass\config.rb
+[INF] Building ..\..\build\temp\development\Warrior\sass\Warrior-all.scss
+[INF] Application available at http://localhost:1841
+[INF] Appending content to D:\tuto\extjs\sam\bootstrap.js
+[INF] Writing content to D:\tuto\extjs\sam\classic.json
+[INF] Application available at http://localhost:1841
+[INF] Waiting for changes...
